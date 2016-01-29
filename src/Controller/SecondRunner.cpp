@@ -9,6 +9,8 @@ int main()
 {
 	SecondController * baseController = new SecondController();
 	baseController->start();
+	//Do the same thing in a different way
+	(*baseController).start();
 	return 0;
 }
 

@@ -18,6 +18,14 @@ void SecondController :: setClassCount(int classCount)
 	this->classCount = classCount;
 }
 
+
+string SecondController :: getClassName()
+{
+	this->classCount = 21;
+	this->className = "codys c++ class";
+
+}
+
 int SecondController :: getClassCount()
 {
 	return this->classCount;
@@ -27,11 +35,13 @@ void SecondController :: start()
 {
 	cout << "welcome to my second C++ class this week" << endl;
 	cout << "the Current value of classCount is " << getClassCount() << endl;
+	cout << className << endl;
 	int newCount;
 	cout << "Choose a new number for class" << endl;
 	cin >> newCount;
 	this->setClassCount(newCount);
 	cout << "the Current value of classCount is " << getClassCount() << endl;
+	cout << className.append(" ")
 }
 
 
