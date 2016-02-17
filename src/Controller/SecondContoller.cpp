@@ -21,9 +21,7 @@ void SecondController :: setClassCount(int classCount)
 
 string SecondController :: getClassName()
 {
-	this->classCount = 21;
-	this->className = "codys c++ class";
-
+ return this->className;
 }
 
 int SecondController :: getClassCount()

@@ -18,6 +18,7 @@ public:
 	SecondController();
 	void setClassCount (int classCount);
 	int getClassCount();
+	string getClassName();
 	void start();
 
 };
